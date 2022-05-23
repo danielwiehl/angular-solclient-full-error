@@ -18,6 +18,24 @@
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
+//    "paths": {
+//      // WORKING
+//      "solclientjs": [
+//        "./node_modules/solclientjs/lib-browser/solclient"
+//      ]
+//    },
+//    "paths": {
+//      // WORKING
+//      "solclientjs": [
+//        "./node_modules/solclientjs/lib-browser/solclient-debug"
+//      ]
+//    },
+    "paths": {
+      // NOT WORKING
+      "solclientjs": [
+        "./node_modules/solclientjs/lib-browser/solclient-full"
+      ]
+    },
     "lib": [
       "es2020",
       "dom"
